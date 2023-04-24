@@ -2,7 +2,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const shortid = require("shortid");
 const urlRouter = express.Router();
-const UrlSchema = require("./urlSchema");
+const UrlSchema = require("../Schema/urlSchema");
 const AppUtils = require("./AppUtils");
 const Url = mongoose.model("url", UrlSchema, "url");
 
